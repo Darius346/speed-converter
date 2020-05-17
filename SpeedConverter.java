@@ -17,7 +17,6 @@ public class SpeedConverter
 		return Math.round(kilometersPerHour / 1.609);
 	}
 	
-	//In printConversion() we're calling "toMilesPerHour to prevent code duplication
 	public static void printConversion(double kilometersPerHour)
 	{
 		 if(kilometersPerHour < 0)
